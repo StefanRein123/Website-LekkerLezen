@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>        
+        <div class="right">
+            <ul>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="webshop.html">WEBSHOP</a></li>
+                <li><a href="home.php">HOME</a></li>
+                <li class="left">Boekenhandel<br>Lekker Lezen</li>
+            </ul>
+        </div>
+    </header>
+        <style>
+            body {
+              font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            * {
+              box-sizing: border-box;
+            }
+
+            input[type=text], select, textarea {
+              width: 100%;
+              padding: 12px;
+              border: 1px solid #ccc;
+              margin-top: 6px;
+              margin-bottom: 16px;
+              resize: vertical;
+            }
+            
+            input[type=submit] {
+              background-color: #04AA6D;
+              color: white;
+              padding: 12px 20px;
+              border: none;
+              cursor: pointer;
+            }
+            
+            input[type=submit]:hover {
+              background-color: #45a049;
+            }
+            
+            .container {
+              border-radius: 5px;
+              background-color: #f2f2f2;
+              padding: 10px;
+            }
+            
+            .column {
+              float: left;
+              width: 50%;
+              margin-top: 6px;
+              padding: 20px;
+            }
+            
+            .row:after {
+              content: "";
+              display: table;
+              clear: both;
+            }
+            
+            @media screen and (max-width: 600px) {
+              .column, input[type=submit] {
+                width: 100%;
+                margin-top: 0;
+              }
+            }
+            </style>
+            </head>
+            <body>
+            
+            <h2>tekst</h2>
+            <p>nog meer tekst</p>
+            
+            <div class="container">
+              <div class="row">
+                <div class="column">
+                        <h1>Contactgegevens</h1>  
+                    <p>
+                      <strong>Adres</strong>
+                    </p>
+                        <p>
+                            Boekenlaan 18<br>
+                            1132 XY
+                        </p>
+                    
+                    <p>
+                        <strong>Openingstijden</strong>
+                    </p>
+                        <p>
+                            Dinsdag – Donderdag 9.00 uur – 17.30 uur<br>
+                            Vrijdag 9.00 uur tot 18.00 uur<br>
+                            Zaterdag 10.00 uur – 16.00 uur
+                        </p>
+                    
+                    <p>
+                        <strong>Telefoonnummer:</strong>
+                    </p>
+                        <p>
+                            0299-123456
+                        </p>
+
+                    <p>
+                        <strong>E-mailadres</strong>
+                    </p>
+                        <p>lekker.lezen@gmail.com</p>
+                        
+                </div>
+                <div class="column">
+                  <form action="/action_page.php">
+            
+                    <input type="text" id="fname" name="First Name" placeholder="Naam*">
+                    <input type="text" id="lname" name="Last Name" placeholder="E-mailadres*">
+                    <textarea id="subject" name="subject" placeholder="Uw bericht*" 
+                    
+                    style="height:170px"></textarea>
+                    <input type="submit" value="Versturen">
+                  </form>
+                </div>
+              </div>
+            </div>
+</body>
+</html>
